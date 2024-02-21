@@ -1,0 +1,8 @@
+DOM
+
+Browser - receives - html - maps - DOM - render
+Browser - manipulates -DOM 
+    while clicking like button - increment the count
+
+Javascript - Imperative - Write a lot
+React - Declarative - Simple to Code

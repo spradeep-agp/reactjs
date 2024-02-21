@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <h1>Welcome to HTML Element</h1>
+    <button onclick="addElement()">Click</button>
+    <div id="content"></div>
+
+    <script>
+        function addElement() {
+            var parent = document.getElementById("content");
+            var element = document.createElement("h1");
+            var text = document.createTextNode("Welcome to Javascript Element");
+            element.appendChild(text);
+            parent.appendChild(element);
+        }
+    </script>
+</body>
+
+</html>

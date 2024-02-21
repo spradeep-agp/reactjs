@@ -1,0 +1,15 @@
+<html>
+<body>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <div id="content"></div>
+
+    <script type="text/javascript">
+        var parent = document.getElementById("content");
+        var element = React.createElement('h1', {}, 'Welcome to React');
+        ReactDOM.render(element, parent);
+    </script>
+
+</body>
+</html>
