@@ -6,3 +6,16 @@ Browser - manipulates -DOM
 
 Javascript - Imperative - Write a lot
 React - Declarative - Simple to Code
+
+Installation
+    1. Node
+    2. VSCode
+    3. VSCode Extension: ES7+ React/Redux...
+    4. VSCode => File -> Preferences -> settings 
+        Emmet include language  (Add)
+        Javascript      Javascriptreact
+    5. Browser Extension: React Developer Tools
+
+Create React Project
+> npx create-react-app <app-name>
+
