@@ -1,6 +1,6 @@
-
 import './App.css';
-import PrintMe from './p1-intro/f1-print';
+import F1PrintMe from './p1-intro/f1-print';
+import F2GreetMe from './p1-intro/f2-print';
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
         React App
       </header>
       <hr/>
-      <PrintMe/>
+      {/* <F1PrintMe/> */}
+      <F2GreetMe/>
     </div>
   );
 }

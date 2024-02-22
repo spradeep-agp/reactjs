@@ -1,4 +1,4 @@
-function PrintMe(){
+function F1PrintMe(){
     const name = "MyReactApp";
 
     return(
@@ -13,4 +13,4 @@ function PrintMe(){
     )
 }
 
-export default PrintMe;
+export default F1PrintMe;
